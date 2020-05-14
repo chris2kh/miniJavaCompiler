@@ -26,7 +26,6 @@ keywords  = {
 # these will be replaced by "_"
 spanishCharacters = ['á','é','í','ó','ú','ñ','Á','É','Í','Ó','Ú','Ñ']
 
-
 tokens = [
     'comma',
     'rightBracket',
