@@ -6,7 +6,7 @@ keywords  = {
     'class'   : 'class',
     'return'  : 'return',
     'this'    : 'this',
-	'extends' : 'extends',
+    'extends' : 'extends',
     'if'      : 'if',
     'new'     : 'new',
     'void'    : 'void',
@@ -187,9 +187,8 @@ def t_number(t):
     else: 
         return t
 
-
 analyzer = lex.lex()
-sourceCode = open('correctInput.txt', 'r').read()
+sourceCode = open('test/correctInput.txt', 'r').read()
 analyzer.input(sourceCode)
 
 while True:

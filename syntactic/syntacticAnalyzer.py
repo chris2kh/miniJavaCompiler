@@ -18,7 +18,6 @@ def capture(p, category):
       children.append(child)
   p[0] = Node(children, category)
 
-
 precedence =(
     ('right', '='),
     ('left', 'or'),
@@ -198,13 +197,10 @@ def p_epsilon(p):
     'epsilon :'
     pass
   
-
 def p_error(p):
     print("Syntax error for token '"+ str(p.value) +"' found at line number " + str(p.lineno))
 
-# genero la tabla de analisis
 parser = yacc.yacc()
-
 programs = {
     '1' : 'quickSortMiniJava.txt',
     '2' : 'testOk1.txt',
