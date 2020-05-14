@@ -1,5 +1,5 @@
                                              
-## A miniJava compiler: First part
+# A miniJava compiler: First part
 
 
 This project was written in python using the PLY (Python Lex-Yacc) library. You can find a complete description of PLY with examples [here](http://www.dabeaz.com/ply/) 
@@ -10,7 +10,7 @@ This [document](miniJavaRules.pdf) contains the specifications for the miniJava 
 
 There are three folders                                                         
                                                                                 
-### Lexical:                                                                    
+## Lexical:                                                                    
 A lexical analyzer for tokens.                               
                                                                                 
 ## Syntactic:                                                                   
