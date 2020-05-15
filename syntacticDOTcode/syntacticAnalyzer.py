@@ -98,7 +98,6 @@ def p_VAR_DECL_STATEMENTS_LIST(p):
                               |  STATEMENT VAR_DECL_STATEMENTS_LIST'''
   capture(p, "VARIABLE,DECLARATION AND STATEMENT LIST") 
 
-
 def p_VAR_DECL(p):
   '''VAR_DECL : TYPE id LIST_IDS_EXPRESSIONS ';'
               | TYPE id ';' 
@@ -113,7 +112,6 @@ def p_LIST_IDS_EXPRESSIONS(p):
                           | ',' id '=' EXPRESSION LIST_IDS_EXPRESSIONS '''
   capture(p, "IDS AND EXPRESSIONS LIST")
                           
-
 def p_STATEMENT(p):
   '''STATEMENT : ASSIGN ';'
                | CALL ';'
