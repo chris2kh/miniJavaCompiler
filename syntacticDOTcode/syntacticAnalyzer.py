@@ -229,6 +229,6 @@ while(choice != "-1"):
         file.close()
         print("\n  Success!! a file called DOTcode.txt was created in this directory    "\
               "\n  now you can go to webgraphviz.com and use the generated DOT code to  "\
-              "\n  draw a nice abstrac sintax tree for your minijava program            ")
+              "\n  draw a nice abstract sintax tree for your minijava program            ")
     elif choice != "-1":
         print("\n Please choose a valid number \n")                   
