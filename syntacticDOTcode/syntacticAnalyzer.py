@@ -6,7 +6,7 @@ from lexicalAnalyzer import tokens
 from ast import *
 
 
-#  Tokens I can dismiss when I am ready to build the abstract syntax tre
+#  Tokens I can dismiss when I am ready to build the abstract syntax tree
 notRelevantCharacters = [',','[',']','{','}','(',')',';','.']
 
 # function that will be used to create the abstract syntax tree nodes in every production
